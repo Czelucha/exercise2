@@ -1,4 +1,4 @@
-data = load('visiblehuman.mat');
+data = load('visiblehuman.mat')
 head = data.head;
 frozen = data.head_frozen;
 fresh = data.head_fresh;
