@@ -1,4 +1,4 @@
-function [f, sig] = FeducialLocalizationError(x)
+function [f, sig] = FiducialLocalizationError(x)
 %The following function takes and a 3D array containing 2D coordinates of
 %fiducial points and calculates the fiduacial localization error matrix as
 %well as the fiducial localization variance
