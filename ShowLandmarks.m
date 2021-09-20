@@ -4,7 +4,6 @@ function ShowLandmarks(Im, Points)
     Markers = ["ro", "y+", "mx"];
     Leg = strcat("Landmarks ", string(num2cell(1:size(Points, 3))));
     Leg(end + 1) = "Mean Landmarks";
-    figure();
     imshow(Im);
     hold on;
     for i = 1:size(Points, 3)
